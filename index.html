@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kobayashi Collective</title>
+  <meta name="Keywords" content="Kobayashi Collective">
+  <meta name="Description" content="Designer"/>
+  <meta name='viewport' content='width=device-width; initial-scale=1.0;' />
+  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+  <link rel="stylesheet" href="https://use.typekit.net/pho2nfo.css">
+  <style type='text/css'>
+  body {
+    font-family: "proxima-nova",sans-serif;
+      background: #000;
+  }
+    a {
+      text-decoration: none;
+      color: #e4ba52;
+    }
+    #whoami p {
+      opacity: 0;
+      margin-top: 25px;
+      font-size: 1.125em;
+      z-index: 9999;
+      color: #fff;
+      width: 100%;
+      font-weight: 200;
+      line-height: 1.4em;
+      text-align: center;
+    }
+    .yellow {
+      color:#e4ba52;
+      -webkit-animation:colorchange 500s infinite alternate;
+    }
+    ::selection {
+     background: #222; /* Safari */
+    }
+    ::-moz-selection {
+      background: #222; /* Firefox */
+    }
+   @media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+    /* iPhone only */
+      #whoami p {
+      opacity: 0;
+      margin: 2em;
+      font-size: 1.4em;
+      text-align: left;
+      z-index: 9999;
+      position: relative;
+      color: #fff;
+      top: .5em;
+      left: .2em;
+      width: 80%;
+      weight: bold;
+      display: inline-block;
+      padding: 0 0 100px 0;
+    }
+   }
+   #logo {
+     background: url('assets/kobayashi-logo.svg');
+     width: 125px;
+      color: white;
+      padding: 25px;
+    margin-top: 25px;
+   }
+  </style>
+  <script type='text/javascript'>//<![CDATA[
+    $(window).load(function(){
+    $("#whoami p").delay(1000).animate({"opacity": "1"}, 700);
+    });
+  </script>
+</head>
+<body>
+  <div id="whoami">
+    <center><div id="logo"></div></center>
+    <p>
+     Kobayashi is a design and clothing collective established in Lexington, Kentucky.<br/> The brand produces t-shirts, pins, patches, prints, and more dedicated to all things arts and culture.
+     <br><br>
+
+
+
+      <script language=javascript>
+        var showtag="@"
+        var showlink="Contact Us";
+        var showname="kobayashicollective";
+        var showhost="gmail.com";
+        document.write("<a href="+"mail"+"to:"+showname+showtag+showhost+" "+"class='yellow'"+">"+showlink+"</a>")
+      </script>
+    </p>
+  </div>
+
+</body>
+</html>
